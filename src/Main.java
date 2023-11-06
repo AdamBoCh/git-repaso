@@ -6,7 +6,10 @@ public class Main {
         System.out.println("Numero: ");
         int n = scanner.nextInt();
         for (int i = 0;i < n;i++){
-            System.out.println("nuemros anteriores" + i);
+            System.out.println("numeros anteriores " + i);
+        if (i == 5){
+            System.out.println("Es el numero bueno: " + i * 5);
+        }
         }
     }
 }
